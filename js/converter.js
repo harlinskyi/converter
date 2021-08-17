@@ -1,13 +1,13 @@
 const api = "https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5";
 
-var searchValue = document.getElementById("searchValue");
-var reset = document.getElementById("reset");
-var swapCurrency = document.getElementById("swapCurrency");
-var fromCurrecy = document.getElementById("from");
-var toCurrecy = document.getElementById("to");
-var finalValue = document.getElementById("finalValue");
-var resultFrom;
-var resultTo;
+let searchValue = document.getElementById("searchValue");
+let reset = document.getElementById("reset");
+let swapCurrency = document.getElementById("swapCurrency");
+let fromCurrecy = document.getElementById("from");
+let toCurrecy = document.getElementById("to");
+let finalValue = document.getElementById("finalValue");
+let resultFrom;
+let resultTo;
 
 fromCurrecy.addEventListener("change", getResults);
 toCurrecy.addEventListener("change", getResults);
