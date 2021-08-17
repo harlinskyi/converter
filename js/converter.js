@@ -42,7 +42,6 @@ function serachOperand(arr, element) {
 }
 
 function displayResults(currency) {
-  console.log(currency);
   let fromRate = serachOperand(currency, fromCurrecy);
   let toRate = serachOperand(currency, toCurrecy);
   finalValue.value = ((fromRate / toRate) * searchValue.value).toFixed(2);
